@@ -22,7 +22,6 @@ body{
 #contents{
     position: relative;
     top: 1.3rem;
-    border: 1px solid red;
     display: flex;
 }
 
@@ -34,7 +33,7 @@ body{
     position: absolute;
     top: 4rem;
     width: 37%;
-    right: 1rem;
+    right: 6rem;
     color: hsl(0, 0%, 100%);
     font-weight: 600;
     font-family: 'POPPINS', sans-serif;
@@ -44,5 +43,41 @@ body{
 #contents p{
     color:hsl(0, 0%, 100%);
     position: absolute;
+    width: 35%;
+    top: 12rem;
+    right: 7rem;
+}
+
+#contents button{
+    position: absolute;
+    width: 13%;
+    height: 3rem;
+    color: hsl(257, 40%, 49%);
+    border: 1px solid hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3rem;
+    top: 18rem;
+    right: 25rem;
+    box-shadow: 0 0.4rem 1rem hsla(0, 0%, 0%, 0.6);
+}
+
+#footer{
+    display: flex;
+    position: relative;
+}
+
+.icon1{
+    position: absolute;
+    right: 14rem;
     top: 0;
+    width: 3%;
+    height: 2.5rem;
+    border-radius: 10rem;
+    border: 1px solid red;
+}
+
+.icon1 .facebook{
+    position: absolute;
+    left: 0.45rem;
+    top: 0.36rem;
 }
