@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('Images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: hsl(257, 40%, 49%);
+}
+
+#header{
+    margin: 2.5rem 0 0 2rem;
+}
+
+#img{
+    margin: 1rem 0 0 2rem;
+}
+
