@@ -73,10 +73,42 @@ body{
     width: 3%;
     height: 2.5rem;
     border-radius: 10rem;
-    border: 1px solid red;
+    border: 1px solid hsl(0, 0%, 100%);
 }
 
 .icon1 .facebook{
+    position: absolute;
+    left: 0.45rem;
+    top: 0.36rem;
+}
+
+.icon2{
+    position: absolute;
+    right: 10rem;
+    top: 0;
+    width: 3%;
+    height: 2.5rem;
+    border-radius: 10rem;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.icon2 .twitter{
+    position: absolute;
+    left: 0.45rem;
+    top: 0.36rem;
+}
+
+.icon3{
+    position: absolute;
+    right: 6rem;
+    top: 0;
+    width: 3%;
+    height: 2.5rem;
+    border-radius: 10rem;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.icon3 .instagram{
     position: absolute;
     left: 0.45rem;
     top: 0.36rem;
