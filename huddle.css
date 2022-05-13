@@ -16,10 +16,33 @@ body{
 }
 
 #header{
-    margin: 2.5rem 0 0 2rem;
+    margin: 1.5rem 0 0 2rem;
 }
 
-#img{
+#contents{
+    position: relative;
+    top: 1.3rem;
+    border: 1px solid red;
+    display: flex;
+}
+
+#contents img{
     margin: 1rem 0 0 2rem;
 }
 
+#contents h1{
+    position: absolute;
+    top: 4rem;
+    width: 37%;
+    right: 1rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-family: 'POPPINS', sans-serif;
+    font-size: 2.5em;
+}
+
+#contents p{
+    color:hsl(0, 0%, 100%);
+    position: absolute;
+    top: 0;
+}
