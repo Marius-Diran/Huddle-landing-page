@@ -101,3 +101,38 @@ ul li:hover{
 ul li a:hover{
     filter: invert(30%) sepia(87%) saturate(7125%) hue-rotate(293deg) brightness(101%) contrast(109%);
 }
+
+@media (min-width: 320px) and (max-width: 374px){
+    body{
+        background-position: -40rem 0;
+        width: 100%;
+    }
+
+    #header img{
+        width: 40%;
+    }
+
+    #contents{
+        border: 1px solid red;
+        width: 100%;
+        height: fit-content;
+    }
+
+    #contents img{
+        margin: 2rem 1rem 0 1.5rem;
+        width: 90%;
+    }
+
+    #contents h1{
+        width: 80%;
+        position: absolute;
+        text-align: center;
+        top: 20rem;
+        left: 2rem;
+        font-size: 1.5rem;
+    }
+
+    #contents p{
+        display: none;
+    }
+}
