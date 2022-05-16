@@ -218,7 +218,7 @@ ul li a:hover{
     }
 }
 
-@media (min-width: 425px) and (max-width: 500px){
+@media (min-width: 425px) and (max-width: 767px){
     body{
         background-position: -40rem 0;
         width: 100%;
