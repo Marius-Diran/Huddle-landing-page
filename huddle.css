@@ -101,61 +101,7 @@ ul li:hover{
 ul li a:hover{
     filter: invert(30%) sepia(87%) saturate(7125%) hue-rotate(293deg) brightness(101%) contrast(109%);
 }
-/* 
-@media (min-width: 320px) and (max-width: 328px){
-    body{
-        background-position: -40rem 0;
-        width: 100%;
-        height: 55rem;
-    }
 
-    #header img{
-        width: 40%;
-    }
-
-    #contents{
-        width: 100%;
-    }
-
-    #contents img{
-        margin: 2rem 1rem 0 1.5rem;
-        width: 90%;
-    }
-
-    #contents h1{
-        width: 80%;
-        position: absolute;
-        text-align: center;
-        top: 20rem;
-        left: 2rem;
-        font-size: 1.5rem;
-    }
-
-    #contents p{
-        width: 80%;
-        font-size: 1rem;
-        text-align: center;
-        left: 2.4rem;
-        top: 27.7rem;
-    }
-
-    #contents button{
-        left: 5rem;
-        top: 38rem;
-        width: 55%;
-    }
-
-    ul{
-        width: 100%;
-        top: 30rem;
-    }
-
-    ul li{
-        left: -0.5rem;
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-} */
 
 
 @media (min-width: 320px) and (max-width: 374px){
@@ -184,6 +130,7 @@ ul li a:hover{
         text-align: center;
         top: 20rem;
         left: 2rem;
+        line-height: 2rem;
         font-size: 1.5rem;
     }
 
@@ -193,6 +140,7 @@ ul li a:hover{
         text-align: center;
         left: 2.4rem;
         top: 26rem;
+        line-height: 1.4rem;
     }
 
     #contents button{
