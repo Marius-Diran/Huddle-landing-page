@@ -218,7 +218,7 @@ ul li a:hover{
     }
 }
 
-@media (min-width: 425px) and (max-width: 600px){
+@media (min-width: 425px) and (max-width: 520px){
     body{
         background-position: -40rem 0;
         width: 100%;
@@ -239,33 +239,33 @@ ul li a:hover{
     }
 
     #contents h1{
-        width: 60%;
+        width: 70%;
         position: absolute;
         text-align: center;
-        top: 30rem;
-        left: 7rem;
+        top: 27rem;
+        left: 5rem;
         line-height: 2rem;
         font-size: 1.8rem;
     }
 
     #contents p{
-        width: 60%;
+        width: 70%;
         font-size: 1.2rem;
         text-align: center;
-        left: 7.2rem;
-        top: 36rem;
+        left: 5rem;
+        top: 33rem;
         line-height: 1.4rem;
     }
 
     #contents button{
-        left: 12rem;
-        top: 46rem;
+        left: 10.5rem;
+        top: 42rem;
         width: 35%;
     }
 
     ul{
         width: 100%;
-        top: 28rem;
+        top: 26rem;
     }
 
     ul li{
