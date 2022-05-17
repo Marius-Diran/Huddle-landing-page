@@ -275,3 +275,60 @@ ul li a:hover{
     }
 }
 
+@media (min-width: 521px) and (max-width: 600px){
+    body{
+        background-position: -40rem 0;
+        width: 100%;
+        height: 64rem;
+    }
+
+    #header img{
+        width: 40%;
+    }
+
+    #contents{
+        width: 100%;
+    }
+
+    #contents img{
+        margin: 2rem 1rem 0 1.5rem;
+        width: 90%;
+    }
+
+    #contents h1{
+        width: 60%;
+        position: absolute;
+        text-align: center;
+        top: 32rem;
+        left: 7rem;
+        line-height: 2rem;
+        font-size: 1.8rem;
+    }
+
+    #contents p{
+        width: 60%;
+        font-size: 1.2rem;
+        text-align: center;
+        left: 7.3rem;
+        top: 38rem;
+        line-height: 1.4rem;
+    }
+
+    #contents button{
+        left: 12rem;
+        top: 47rem;
+        width: 35%;
+    }
+
+    ul{
+        width: 100%;
+        top: 28rem;
+    }
+
+    ul li{
+        left: -0.4rem;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
